@@ -1,9 +1,9 @@
 import tkinter as tk
 from PIL import ImageTk
-window = tk.Tk()
-window.resizable(0, 0)
-w.iconbitmap("cat.ico")
-window.title('真相')
+w = tk.Tk()
+w.resizable(0, 0)
+w.iconbitmap("cat32.ico")
+w.title('真相')
 truth = '真相只有一个！'
 bg = ImageTk.PhotoImage(file="images/truth.png")
 
@@ -17,4 +17,4 @@ text = tk.Label(window,
                 foreground = 'white',
                 compound = 'right')
 text.pack()  
-window.mainloop()
+w.mainloop()

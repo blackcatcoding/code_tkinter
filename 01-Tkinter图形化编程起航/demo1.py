@@ -1,7 +1,7 @@
 import tkinter as tk    # 给模块起别名
 
 w = tk.Tk()     # 创建一个根窗口
-w.iconbitmap("cat.ico")
+w.iconbitmap("cat32.ico")
 screen_width = w.winfo_screenwidth()
 screen_height = w.winfo_screenheight()
 width = 300
